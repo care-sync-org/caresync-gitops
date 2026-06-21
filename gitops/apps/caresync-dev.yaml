@@ -8,8 +8,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/nandana-sureshh/monolithic-application-v1.git
-    targetRevision: microservices-migration
+    repoURL: https://github.com/care-sync-org/caresync-gitops.git
+    targetRevision: HEAD
     path: helm
     helm:
       valueFiles:
