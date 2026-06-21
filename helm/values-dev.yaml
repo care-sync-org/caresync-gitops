@@ -2,7 +2,7 @@
 # These would typically be populated by a CI/CD pipeline
 services:
   notificationService:
-    tag: dev-7544f15d
+    tag: v0.0.1-dev.0-dev-be4e97b1
   appointmentService:
     tag: dev-7544f15d
   authService:
