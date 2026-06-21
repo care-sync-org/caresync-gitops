@@ -12,6 +12,6 @@ services:
   userService:
     tag: "v0.0.1-dev.0-dev-bc4cee9b"
   documentService:
-    tag: "latest"
+    tag: "v0.0.1-dev.0-dev-bc4cee9b"
   aiService:
     tag: "v0.0.1-dev.0-dev-bc4cee9b"
