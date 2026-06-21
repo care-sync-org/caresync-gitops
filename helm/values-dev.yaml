@@ -14,4 +14,4 @@ services:
   documentService:
     tag: "latest"
   aiService:
-    tag: "latest"
+    tag: "v0.0.1-dev.0-dev-bc4cee9b"
