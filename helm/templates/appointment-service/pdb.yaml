@@ -1,0 +1,12 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: appointment-service-pdb
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: appointment-service
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: appointment-service

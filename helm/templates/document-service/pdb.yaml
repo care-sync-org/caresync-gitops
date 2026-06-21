@@ -1,0 +1,12 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: document-service-pdb
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: document-service
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: document-service
