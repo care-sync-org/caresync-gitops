@@ -10,7 +10,7 @@ services:
   frontend:
     tag: dev-7544f15d
   userService:
-    tag: "latest"
+    tag: "v0.0.1-dev.0-dev-be4e97b1"
   documentService:
     tag: "latest"
   aiService:
