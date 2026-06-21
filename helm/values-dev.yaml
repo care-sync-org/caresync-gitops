@@ -8,3 +8,5 @@ services:
     tag: dev-7544f15d
   authService:
     tag: dev-7544f15d
+  frontend:
+    tag: dev-7544f15d
