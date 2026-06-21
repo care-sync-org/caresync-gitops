@@ -4,7 +4,7 @@ services:
   notificationService:
     tag: v0.0.1-dev.0-dev-8261f408
   appointmentService:
-    tag: v0.0.1-dev.0-dev-8261f408
+    tag: v0.0.1-dev.0-dev-bc4cee9b
   authService:
     tag: v0.0.1-dev.0-dev-8261f408
   frontend:
