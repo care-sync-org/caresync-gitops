@@ -6,7 +6,7 @@ services:
   appointmentService:
     tag: v0.0.1-dev.0-dev-be4e97b1
   authService:
-    tag: dev-7544f15d
+    tag: v0.0.1-dev.0-dev-be4e97b1
   frontend:
     tag: dev-7544f15d
   userService:
