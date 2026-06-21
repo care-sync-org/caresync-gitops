@@ -4,3 +4,5 @@
 services:
   notificationService:
     tag: dev-7544f15d
+  appointmentService:
+    tag: dev-7544f15d
