@@ -8,7 +8,7 @@ services:
   authService:
     tag: v0.0.1-dev.0-dev-be4e97b1
   frontend:
-    tag: dev-7544f15d
+    tag: v0.0.1-dev.0-dev-be4e97b1
   userService:
     tag: "v0.0.1-dev.0-dev-be4e97b1"
   documentService:
