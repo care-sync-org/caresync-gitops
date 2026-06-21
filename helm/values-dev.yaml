@@ -6,3 +6,5 @@ services:
     tag: dev-7544f15d
   appointmentService:
     tag: dev-7544f15d
+  authService:
+    tag: dev-7544f15d
