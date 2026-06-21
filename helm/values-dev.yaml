@@ -1,3 +1,6 @@
 
 # Dev-specific overrides
 # These would typically be populated by a CI/CD pipeline
+services:
+  notificationService:
+    tag: dev-7544f15d
