@@ -23,4 +23,4 @@ spec:
               service:
                 name: caresync-gateway # The exact name of the KGateway service provisioned by Gloo
                 port:
-                  number: 8080
+                  number: 80
