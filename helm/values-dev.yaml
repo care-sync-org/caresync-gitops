@@ -3,16 +3,23 @@
 domain_name: caresync-project.online
 services:
   notificationService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
     tag: v0.0.1-dev.0-dev-13b2a3fb
   appointmentService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
     tag: v0.0.1-dev.0-dev-13b2a3fb
   authService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
     tag: v0.0.1-dev.0-dev-13b2a3fb
   frontend:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
     tag: v0.0.1-dev.0-dev-13b2a3fb
   userService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
     tag: "v0.0.1-dev.0-dev-13b2a3fb"
   documentService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
     tag: "v0.0.1-dev.0-dev-13b2a3fb"
   aiService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
     tag: "v0.0.1-dev.0-dev-13b2a3fb"
