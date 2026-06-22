@@ -1,5 +1,6 @@
 # Dev-specific overrides
 # These would typically be populated by a CI/CD pipeline
+domain_name: caresync-project.online
 services:
   notificationService:
     tag: v0.0.1-dev.0-dev-bc4cee9b
