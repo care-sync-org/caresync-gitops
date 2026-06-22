@@ -13,7 +13,7 @@ services:
     tag: v0.0.1-dev.0-dev-3472681e
   frontend:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
-    tag: v0.0.1-dev.0-dev-13b2a3fb
+    tag: v0.0.1-dev.0-dev-3472681e
   userService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
     tag: "v0.0.1-dev.0-dev-3472681e"
