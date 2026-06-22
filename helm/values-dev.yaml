@@ -11,7 +11,7 @@ services:
   frontend:
     tag: v0.0.1-dev.0-dev-bc4cee9b
   userService:
-    tag: "v0.0.1-dev.0-dev-bc4cee9b"
+    tag: "v0.0.1-dev.0-dev-13b2a3fb"
   documentService:
     tag: "v0.0.1-dev.0-dev-13b2a3fb"
   aiService:
