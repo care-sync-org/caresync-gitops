@@ -5,12 +5,17 @@ metadata:
   namespace: {{ .Values.namespace }}
 spec:
   parentRefs:
-  - name: caresync-gateway
+  - group: gateway.networking.k8s.io
+    kind: Gateway
+    name: caresync-gateway
   rules:
   - matches:
     - path:
         type: PathPrefix
         value: /api/auth
     backendRefs:
-    - name: auth-service
+    - group: ""
+      kind: Service
+      name: auth-service
       port: 80
+      weight: 1
