@@ -8,7 +8,7 @@ services:
     tag: v0.0.1-dev.0-dev-8bc0c716
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
-    tag: v0.0.1-dev.0-dev-231fd3c6
+    tag: v0.0.1-dev.0-dev-8bc0c716
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
     tag: v0.0.1-dev.0-dev-8bc0c716
