@@ -20,7 +20,7 @@ services:
     tag: "v0.0.1-dev.0-dev-8bc0c716"
   documentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
-    tag: "v0.0.1-dev.0-dev-231fd3c6"
+    tag: "v0.0.1-dev.0-dev-8bc0c716"
   aiService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
     tag: "v0.0.1-dev.0-dev-231fd3c6"
