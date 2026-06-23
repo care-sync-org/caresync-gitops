@@ -1,7 +1,7 @@
 # Dev-specific overrides
 # These would typically be populated by a CI/CD pipeline
 domain_name: caresync-project.online
-waf_acl_arn: ""
+waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-dev-waf/2b6d66d0-46a6-4b33-b974-86e62e8282ff"
 services:
   notificationService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
