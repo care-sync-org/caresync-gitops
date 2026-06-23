@@ -4,6 +4,7 @@ environment: dev
 region: us-east-1
 awsAccountId: ""
 apiBaseUrl: ""
+waf_acl_arn: ""
 
 gateway:
   className: kgateway
