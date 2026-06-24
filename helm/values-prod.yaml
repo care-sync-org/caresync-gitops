@@ -5,7 +5,7 @@ waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod
 services:
   notificationService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
-    tag: v0.0.3
+    tag: notification-service-v0.0.1
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
     tag: v0.0.5
