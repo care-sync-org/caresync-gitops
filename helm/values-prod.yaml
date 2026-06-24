@@ -8,7 +8,7 @@ services:
     tag: notification-service-v0.0.3
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
-    tag: appointment-service-v0.0.3
+    tag: appointment-service-v0.0.4
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
     tag: auth-service-v0.0.3
