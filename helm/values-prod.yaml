@@ -11,7 +11,7 @@ services:
     tag: appointment-service-v0.0.4
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
-    tag: auth-service-v0.0.3
+    tag: auth-service-v0.0.4
   frontend:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
     tag: frontend-v0.0.2
