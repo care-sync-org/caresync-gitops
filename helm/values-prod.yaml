@@ -17,7 +17,7 @@ services:
     tag: v0.0.6
   userService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
-    tag: v0.0.1
+    tag: user-service-v0.0.1
   documentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
     tag: document-service-v0.0.1
