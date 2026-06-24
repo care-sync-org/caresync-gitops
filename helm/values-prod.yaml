@@ -23,4 +23,4 @@ services:
     tag: document-service-v0.0.4
   aiService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
-    tag: ai-service-v0.0.3
+    tag: ai-service-v0.0.4
