@@ -11,7 +11,7 @@ services:
     tag: v0.0.5
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
-    tag: latest
+    tag: auth-service-v0.0.1
   frontend:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
     tag: v0.0.6
