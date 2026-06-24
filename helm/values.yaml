@@ -1,17 +1,17 @@
 
-namespace: caresync-dev
-environment: dev
+namespace: caresync-prod
+environment: prod
 region: us-east-1
 awsAccountId: ""
 apiBaseUrl: ""
-waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-dev-waf/2b6d66d0-46a6-4b33-b974-86e62e8282ff"
+waf_acl_arn: ""
 
 gateway:
   className: kgateway
 
 secrets:
   name: caresync-app-secrets
-  awsSecretName: caresync/app-secrets-dev
+  awsSecretName: caresync/app-secrets-prod
 
 services:
   authService:

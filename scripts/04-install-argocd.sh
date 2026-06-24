@@ -25,6 +25,6 @@ echo "   Then open https://localhost:8080 in your browser."
 
 echo "--------------------------------------------------------"
 echo "⛵ Applying CareSync GitOps Application..."
-kubectl apply -f gitops/apps/caresync-dev.yaml
+kubectl apply -f gitops/apps/caresync-prod.yaml
 
 echo "🎉 GitOps sync initiated! ArgoCD will now continuously monitor and deploy the helm chart."

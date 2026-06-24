@@ -1,0 +1,26 @@
+# Prod-specific overrides
+# Image tags are automatically updated by the CI/CD pipeline on push to main
+domain_name: caresync-project.online
+waf_acl_arn: ""
+services:
+  notificationService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
+    tag: latest
+  appointmentService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
+    tag: latest
+  authService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
+    tag: latest
+  frontend:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
+    tag: latest
+  userService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
+    tag: latest
+  documentService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
+    tag: latest
+  aiService:
+    repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
+    tag: latest

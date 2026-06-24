@@ -6,7 +6,7 @@
 # =============================================================================
 set -euo pipefail
 
-NAMESPACE="caresync-dev"
+NAMESPACE="caresync-prod"
 KGATEWAY_VERSION="v2.3.1"
 KGATEWAY_NAMESPACE="kgateway-system"
 GATEWAY_API_CRD_VERSION="v1.2.0"
@@ -87,7 +87,7 @@ elif [ ! -f "Chart.yaml" ]; then
 fi
 
 # Dynamically fetch the Secret Manager name created by Terraform
-SECRET_NAME=$(cd ../caresync-infra/terraform/environments/dev && terraform output -raw db_secret_name)
+SECRET_NAME=$(cd ../caresync-infra/terraform/environments/prod && terraform output -raw db_secret_name)
 echo "🔑 Using AWS Secret: $SECRET_NAME"
 
 # Dynamically fetch AWS Account ID and Region for ECR
