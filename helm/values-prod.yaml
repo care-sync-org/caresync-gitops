@@ -20,7 +20,7 @@ services:
     tag: v0.0.1
   documentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
-    tag: latest
+    tag: v0.0.4
   aiService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
     tag: latest
