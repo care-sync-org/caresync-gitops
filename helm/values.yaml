@@ -1,16 +1,17 @@
 
-namespace: caresync-dev
-environment: dev
+namespace: caresync-prod
+environment: prod
 region: us-east-1
 awsAccountId: ""
-apiBaseUrl: "http://k8s-caresync-caresync-cfc825078f-579067473.us-east-1.elb.amazonaws.com"
+apiBaseUrl: ""
+waf_acl_arn: ""
 
 gateway:
   className: kgateway
 
 secrets:
   name: caresync-app-secrets
-  awsSecretName: caresync/app-secrets-dev
+  awsSecretName: caresync/app-secrets-prod
 
 services:
   authService:

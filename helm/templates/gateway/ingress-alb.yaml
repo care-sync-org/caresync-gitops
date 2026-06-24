@@ -1,10 +1,29 @@
-# ALB Ingress is intentionally NOT defined here.
-#
-# The ALB Ingress is dynamically generated in scripts/02-deploy-k8s.sh
-# AFTER the KGateway proxy service has been provisioned by the control plane.
-# This prevents hardcoding KGateway's internal proxy Service name and port,
-# which can vary across KGateway versions.
-#
-# The deployment script uses label selectors (gloo=kube-gateway) to discover
-# the exact Service name and port at runtime before generating and applying
-# the Ingress manifest.
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: gateway-alb-ingress
+  namespace: {{ .Values.namespace }}
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
+    alb.ingress.kubernetes.io/ssl-redirect: '443'
+    {{- if .Values.waf_acl_arn }}
+    alb.ingress.kubernetes.io/wafv2-acl-arn: {{ .Values.waf_acl_arn | quote }}
+    {{- end }}
+    # Auto-discovery: The ALB controller will automatically find the ACM cert matching the host
+    # Tell external-dns to map our domain to this ALB
+    external-dns.alpha.kubernetes.io/hostname: {{ .Values.domain_name | quote }}
+spec:
+  rules:
+    - host: {{ .Values.domain_name | quote }}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: caresync-gateway # The exact name of the KGateway service provisioned by Gloo
+                port:
+                  number: 80

@@ -1,26 +1,26 @@
-# Dev-specific overrides
-# These would typically be populated by a CI/CD pipeline
+# Prod-specific overrides
+# Image tags are automatically updated by the CI/CD pipeline on push to main
 domain_name: caresync-project.online
-waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-dev-waf/2b6d66d0-46a6-4b33-b974-86e62e8282ff"
+waf_acl_arn: ""
 services:
   notificationService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
-    tag: v0.0.1-dev.0-dev-8bc0c716
+    tag: latest
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
-    tag: v0.0.1-dev.0-dev-8bc0c716
+    tag: latest
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
-    tag: v0.0.1-dev.0-dev-8bc0c716
+    tag: latest
   frontend:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
-    tag: v0.0.1-dev.0-dev-8bc0c716
+    tag: latest
   userService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
-    tag: "v0.0.1-dev.0-dev-8bc0c716"
+    tag: latest
   documentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
-    tag: "v0.0.1-dev.0-dev-8bc0c716"
+    tag: latest
   aiService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
-    tag: "v0.0.1-dev.0-dev-8bc0c716"
+    tag: latest
