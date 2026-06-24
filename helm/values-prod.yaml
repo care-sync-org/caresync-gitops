@@ -8,7 +8,7 @@ services:
     tag: v0.0.3
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
-    tag: latest
+    tag: v0.0.5
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
     tag: latest
