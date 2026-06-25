@@ -5,22 +5,22 @@ waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod
 services:
   notificationService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
-    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
+    tag: a1979a43c067f89889bdcfa1bddc9aea980e7c7a
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
-    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
+    tag: a1979a43c067f89889bdcfa1bddc9aea980e7c7a
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
-    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
+    tag: a1979a43c067f89889bdcfa1bddc9aea980e7c7a
   frontend:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
-    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
+    tag: a1979a43c067f89889bdcfa1bddc9aea980e7c7a
   userService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
-    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
+    tag: a1979a43c067f89889bdcfa1bddc9aea980e7c7a
   documentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
-    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
+    tag: a1979a43c067f89889bdcfa1bddc9aea980e7c7a
   aiService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
-    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
+    tag: a1979a43c067f89889bdcfa1bddc9aea980e7c7a
