@@ -1,7 +1,7 @@
 # Prod-specific overrides
 # Image tags are automatically updated by the CI/CD pipeline on push to main
 domain_name: caresync-project.online
-waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod-waf/bb4d1619-3908-4fcc-a588-971ebcadad31"
+waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod-waf/ccfcc9cd-58c7-4864-9a37-5a0adfddb6d9"
 services:
   notificationService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
