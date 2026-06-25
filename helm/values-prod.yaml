@@ -5,22 +5,22 @@ waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod
 services:
   notificationService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
-    tag: latest
+    tag: dev-7d9d460e
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
-    tag: latest
+    tag: dev-7d9d460e
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
-    tag: latest
+    tag: dev-7d9d460e
   frontend:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
-    tag: latest
+    tag: dev-7d9d460e
   userService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
-    tag: latest
+    tag: dev-7d9d460e
   documentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
-    tag: latest
+    tag: dev-7d9d460e
   aiService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
-    tag: latest
+    tag: dev-7d9d460e
