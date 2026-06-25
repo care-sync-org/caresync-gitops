@@ -5,22 +5,22 @@ waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod
 services:
   notificationService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/notification-service
-    tag: notification-service-v0.0.4
+    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
   appointmentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/appointment-service
-    tag: appointment-service-v0.0.4
+    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
   authService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/auth-service
-    tag: auth-service-v0.0.4
+    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
   frontend:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/frontend
-    tag: frontend-v0.0.2
+    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
   userService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/user-service
-    tag: user-service-v0.0.4
+    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
   documentService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/document-service
-    tag: document-service-v0.0.6
+    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
   aiService:
     repository: 664685894054.dkr.ecr.us-east-1.amazonaws.com/caresync/ai-service
-    tag: ai-service-v0.0.6
+    tag: 7d9d460e49e6eeb0fe440e55aad0835ac9c9f4c1
