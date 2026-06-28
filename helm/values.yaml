@@ -4,7 +4,7 @@ environment: prod
 region: us-east-1
 awsAccountId: ""
 apiBaseUrl: ""
-waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod-waf/ccfcc9cd-58c7-4864-9a37-5a0adfddb6d9"
+waf_acl_arn: "arn:aws:wafv2:us-east-1:664685894054:regional/webacl/CareSync-prod-waf/7b8050d9-0759-430d-b416-98ebb26a2141"
 gateway:
   className: kgateway
 
